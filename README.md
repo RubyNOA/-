@@ -17,6 +17,10 @@
     </div>
     <script>
         document.getElementById('fortuneForm').addEventListener('submit', function(event) {
+            git add index.html
+git commit -m "Initial commit"
+git push origin main
+            
             event.preventDefault();
             const name = document.getElementById('name').value;
             const resultDiv = document.getElementById('result');
